@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
-export function Post(props) {
-    return <li>
-        <h2>{props.post.message}</h2>
-        <img src={props.post.imageUrl} alt={props.post.message} width="200" />
-        <p>Posted by {props.post.postedBy.name}</p>
-    </li>
+export function Post({ post, postedBy }) {
+    return <>
+        <h2>{post.message}</h2>
+        <img src={post.imageUrl} alt={post.message} width="200" />
+        <p>
+            Posted by {postedBy.name}
+        </p>
+    </>
 }

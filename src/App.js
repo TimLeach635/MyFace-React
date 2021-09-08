@@ -1,10 +1,10 @@
 import './App.scss';
-import { PostList } from './components/PostList';
+import { PostListPage } from './components/PostListPage';
 
 function App() {
   return <main>
-    <h1>Posts</h1>
-    <PostList />
+    <h1>MyFace</h1>
+    <PostListPage />
   </main>;
 }
 
