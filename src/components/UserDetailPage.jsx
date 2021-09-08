@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Post } from "./Post";
 
 export function UserDetailPage() {
